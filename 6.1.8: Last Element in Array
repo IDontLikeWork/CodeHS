@@ -1,0 +1,18 @@
+public class LastElement
+{
+    public static void main(String[] args)
+    {
+        String[] arr = new String[]{"hello", "my name", "world", "Karel"};
+        //get and print the last element of the array
+        getLastElement(arr);
+        System.out.println("The last element of the String array is: " + arr[getLastElement(arr)]);
+    }
+
+    public static int getLastElement(String[] arr)
+    {
+        // Your code goes here!
+        int temp = arr.length - 1;
+        return temp;
+    }
+}
+//line 8 is confusing 
