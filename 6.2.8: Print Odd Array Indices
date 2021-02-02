@@ -1,0 +1,19 @@
+public class PrintOdd 
+{
+    public static void main(String[] args)
+    {
+        int[] oddIndexArray = new int[] {1, 2, 3, 4, 5};
+        printOddIndices(oddIndexArray);
+    }
+    
+    public static void printOddIndices(int[] arr)
+    {
+        // your code goes here!
+        for(int i = 1; i < arr.length; i += 2)
+        {
+            System.out.println(arr[i]);
+        }
+    }
+}
+//this one is just annoying if u dont watch the video
+//another reason for not putting all is because it's too easy
